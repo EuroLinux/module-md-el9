@@ -1,0 +1,32 @@
+---
+document: modulemd-defaults
+version: 1
+data:
+  module: maven
+  profiles:
+    3.8: [common]
+...
+---
+document: modulemd-defaults
+version: 1
+data:
+  module: nodejs
+  profiles:
+    18: [common]
+...
+---
+document: modulemd-defaults
+version: 1
+data:
+  module: ruby
+  profiles:
+    3.1: [common]
+...
+---
+document: modulemd-defaults
+version: 1
+data:
+  module: php
+  profiles:
+    8.1: [common]
+...
