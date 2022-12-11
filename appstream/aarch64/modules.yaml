@@ -943,3 +943,179 @@ data:
 document: modulemd
 version: 2
 ...
+---
+data:
+  api:
+    rpms:
+    - php-fpm
+  arch: aarch64
+  artifacts:
+    rpms:
+    - php-intl-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-mysqlnd-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-mbstring-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-xml-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-common-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-cli-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-opcache-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-mbstring-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-xml-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-dbg-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-embedded-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-debugsource-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-process-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-devel-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-soap-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-intl-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-soap-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-mysqlnd-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-cli-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-fpm-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-common-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-embedded-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-dbg-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-pdo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-fpm-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-ffi-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-pgsql-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-odbc-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-pdo-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-process-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-opcache-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-ldap-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-pgsql-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-odbc-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-ffi-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-gd-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-snmp-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-dba-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-gmp-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-bcmath-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-gd-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-ldap-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-bcmath-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-dba-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-gmp-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-enchant-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-snmp-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-enchant-debuginfo-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-0:8.1.8-1.module+el9.1.0+16866+0fab0697.aarch64
+    - php-pecl-zip-debuginfo-0:1.20.1-1.module+el9.1.0+15477+1fc469b9.aarch64
+    - php-pecl-zip-0:1.20.1-1.module+el9.1.0+15477+1fc469b9.aarch64
+    - php-pecl-zip-debugsource-0:1.20.1-1.module+el9.1.0+15477+1fc469b9.aarch64
+    - php-pecl-xdebug3-0:3.1.4-1.module+el9.1.0+15477+1fc469b9.aarch64
+    - php-pecl-xdebug3-debuginfo-0:3.1.4-1.module+el9.1.0+15477+1fc469b9.aarch64
+    - php-pecl-xdebug3-debugsource-0:3.1.4-1.module+el9.1.0+15477+1fc469b9.aarch64
+    - php-pecl-rrd-debugsource-0:2.0.3-4.module+el9.1.0+15477+1fc469b9.aarch64
+    - php-pecl-rrd-debuginfo-0:2.0.3-4.module+el9.1.0+15477+1fc469b9.aarch64
+    - php-pecl-rrd-0:2.0.3-4.module+el9.1.0+15477+1fc469b9.aarch64
+    - apcu-panel-0:5.1.21-1.module+el9.1.0+15477+1fc469b9.noarch
+    - php-pecl-apcu-0:5.1.21-1.module+el9.1.0+15477+1fc469b9.aarch64
+    - php-pecl-apcu-debuginfo-0:5.1.21-1.module+el9.1.0+15477+1fc469b9.aarch64
+    - php-pecl-apcu-debugsource-0:5.1.21-1.module+el9.1.0+15477+1fc469b9.aarch64
+    - php-pecl-apcu-devel-0:5.1.21-1.module+el9.1.0+15477+1fc469b9.aarch64
+  components:
+    rpms:
+      php:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '1'
+        rationale: Module API.
+        ref: stream-php-8.1-rhel-9.1.0
+      php-pecl-apcu:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '2'
+        rationale: APCu extension
+        ref: stream-php-8.1-rhel-9.1.0
+      php-pecl-rrd:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '2'
+        rationale: RRD extension
+        ref: stream-php-8.1-rhel-9.1.0
+      php-pecl-xdebug3:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '2'
+        rationale: Xdebug extension
+        ref: stream-php-8.1-rhel-9.1.0
+      php-pecl-zip:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '2'
+        rationale: ZIP extension
+        ref: stream-php-8.1-rhel-9.1.0
+  context: '9'
+  dependencies:
+  - buildrequires:
+      platform:
+      - el9.1.0
+    requires:
+      platform:
+      - el9
+  description: php 8.1 module
+  license:
+    content:
+    - BSD
+    - PHP
+    - PHP and BSD
+    - PHP and LGPLv2 and OpenLDAP
+    - PHP and LGPLv2+
+    - PHP and Zend and BSD and MIT and ASL 1.0 and NCSA and Boost
+    - PHP and Zend and BSD and MIT and ASL 1.0 and NCSA and PostgreSQL
+    module:
+    - GPLv2+
+  name: php
+  profiles:
+    common:
+      rpms:
+      - php-cli
+      - php-common
+      - php-fpm
+      - php-mbstring
+      - php-xml
+    devel:
+      rpms:
+      - php-cli
+      - php-common
+      - php-devel
+      - php-fpm
+      - php-mbstring
+      - php-pecl-zip
+      - php-process
+      - php-xml
+    minimal:
+      rpms:
+      - php-cli
+      - php-common
+  references:
+    documentation: http://php.net/
+    tracker: https://bugs.php.net/
+  stream: '8.1'
+  summary: PHP scripting language
+  version: '9010020220706080036'
+document: modulemd
+version: 2
+...
