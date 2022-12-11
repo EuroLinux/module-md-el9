@@ -847,16 +847,16 @@ data:
   arch: aarch64
   artifacts:
     rpms:
-    - nodejs-1:18.12.1-1.module+el9.1.0+16866+0fab0697.aarch64
-    - nodejs-debuginfo-1:18.12.1-1.module+el9.1.0+16866+0fab0697.aarch64
-    - nodejs-debugsource-1:18.12.1-1.module+el9.1.0+16866+0fab0697.aarch64
-    - nodejs-devel-1:18.12.1-1.module+el9.1.0+16866+0fab0697.aarch64
-    - nodejs-docs-1:18.12.1-1.module+el9.1.0+16866+0fab0697.noarch
-    - nodejs-full-i18n-1:18.12.1-1.module+el9.1.0+16866+0fab0697.aarch64
-    - nodejs-nodemon-0:2.0.20-1.module+el9.1.0+16866+0fab0697.noarch
+    - nodejs-1:18.12.1-1.module+el9.1.0.z+17326+318294bb.aarch64
+    - nodejs-debuginfo-1:18.12.1-1.module+el9.1.0.z+17326+318294bb.aarch64
+    - nodejs-debugsource-1:18.12.1-1.module+el9.1.0.z+17326+318294bb.aarch64
+    - nodejs-devel-1:18.12.1-1.module+el9.1.0.z+17326+318294bb.aarch64
+    - nodejs-docs-1:18.12.1-1.module+el9.1.0.z+17326+318294bb.noarch
+    - nodejs-full-i18n-1:18.12.1-1.module+el9.1.0.z+17326+318294bb.aarch64
+    - nodejs-nodemon-0:2.0.20-1.module+el9.1.0.z+17326+318294bb.noarch
     - nodejs-packaging-0:2021.06-4.module+el9.1.0+15718+e52ec601.noarch
     - nodejs-packaging-bundler-0:2021.06-4.module+el9.1.0+15718+e52ec601.noarch
-    - npm-1:8.19.2-1.18.12.1.1.module+el9.1.0+16866+0fab0697.aarch64
+    - npm-1:8.19.2-1.18.12.1.1.module+el9.1.0.z+17326+318294bb.aarch64
   buildopts:
     rpms:
       macros: '%_with_bundled 1
