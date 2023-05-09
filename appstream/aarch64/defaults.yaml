@@ -30,3 +30,11 @@ data:
   profiles:
     8.1: [common]
 ...
+---
+document: modulemd-defaults
+version: 1
+data:
+  module: nginx
+  profiles:
+    1.22: [common]
+...
