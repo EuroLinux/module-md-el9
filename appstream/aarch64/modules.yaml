@@ -4,14 +4,14 @@ version: 2
 data:
   name: test-module
   stream: 1.0
-  version: 906969420420 
+  version: 906969420420
   context: 69694200
   arch: noarch
   license:
     module:
     - MIT
   summary: Test module
-  description: Current createrepo_c requires not empty module index. This 
+  description: Current createrepo_c requires not empty module index. This
     not existing module is fix for broken automatic gaia pipelines (broken because createrepo_c is so smart
     that Elon Tusk want it) and will be removed.
   dependencies:
@@ -1116,6 +1116,927 @@ data:
   stream: '8.1'
   summary: PHP scripting language
   version: '9010020220706080036'
+document: modulemd
+version: 2
+...
+---
+data:
+  api:
+    rpms:
+    - postgresql
+    - postgresql-server
+  arch: aarch64
+  artifacts:
+    rpms:
+    - postgresql-server-devel-debuginfo-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgresql-plperl-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgresql-private-libs-debuginfo-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgresql-server-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgres-decoderbufs-debugsource-0:1.9.7-1.Final.module+el9.2.0+17405+aeb9ec60.aarch64
+    - postgresql-plpython3-debuginfo-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgresql-debugsource-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgresql-docs-debuginfo-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgresql-test-debuginfo-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgresql-static-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - pg_repack-debuginfo-0:1.4.8-1.module+el9.2.0+17405+aeb9ec60.aarch64
+    - postgres-decoderbufs-0:1.9.7-1.Final.module+el9.2.0+17405+aeb9ec60.aarch64
+    - postgresql-contrib-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - pg_repack-0:1.4.8-1.module+el9.2.0+17405+aeb9ec60.aarch64
+    - postgresql-upgrade-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgresql-contrib-debuginfo-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgresql-test-rpm-macros-0:15.2-1.module+el9.2.0+18159+266a3926.noarch
+    - postgresql-docs-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgresql-plpython3-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgresql-server-devel-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgresql-server-debuginfo-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - pgaudit-0:1.7.0-1.module+el9.2.0+17405+aeb9ec60.aarch64
+    - postgresql-private-libs-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgresql-pltcl-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgres-decoderbufs-debuginfo-0:1.9.7-1.Final.module+el9.2.0+17405+aeb9ec60.aarch64
+    - postgresql-pltcl-debuginfo-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgresql-upgrade-devel-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - pgaudit-debuginfo-0:1.7.0-1.module+el9.2.0+17405+aeb9ec60.aarch64
+    - postgresql-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgresql-private-devel-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgresql-upgrade-debuginfo-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - pgaudit-debugsource-0:1.7.0-1.module+el9.2.0+17405+aeb9ec60.aarch64
+    - postgresql-debuginfo-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgresql-test-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgresql-plperl-debuginfo-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - postgresql-upgrade-devel-debuginfo-0:15.2-1.module+el9.2.0+18159+266a3926.aarch64
+    - pg_repack-debugsource-0:1.4.8-1.module+el9.2.0+17405+aeb9ec60.aarch64
+  components:
+    rpms:
+      pg_repack:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '1'
+        rationale: pg_repack extension
+        ref: stream-pg_repack-15-rhel-9.2.0
+      pgaudit:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '1'
+        rationale: pgaudit extension
+        ref: stream-pgaudit-15-rhel-9.2.0
+      postgres-decoderbufs:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '1'
+        rationale: postgres-decoderbufs extension
+        ref: stream-postgres-decoderbufs-15-rhel-9.2.0
+      postgresql:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        rationale: Module API.
+        ref: stream-postgresql-15-rhel-9.2.0
+  context: rhel9
+  dependencies:
+  - buildrequires:
+      platform:
+      - el9.2.0
+    requires:
+      platform:
+      - el9
+  description: PostgreSQL is an advanced Object-Relational database management system
+    (DBMS). The postgresql-server package contains the programs needed to create and
+    run a PostgreSQL server, which will in turn allow you to create and maintain PostgreSQL
+    databases. The base postgresql package contains the client programs that you'll
+    need to access a PostgreSQL DBMS server.
+  license:
+    content:
+    - BSD
+    - MIT
+    - PostgreSQL
+    module:
+    - MIT
+  name: postgresql
+  profiles:
+    client:
+      rpms:
+      - postgresql
+    server:
+      rpms:
+      - postgresql-server
+  references:
+    community: https://www.postgresql.org
+    documentation: https://www.postgresql.org/docs/15/index.html
+    tracker: http://bugzilla.redhat.com
+  stream: '15'
+  summary: PostgreSQL server and client module
+  version: '9020020230213093256'
+document: modulemd
+version: 2
+...
+---
+data:
+  api:
+    rpms:
+    - nginx
+    - nginx-all-modules
+    - nginx-filesystem
+    - nginx-mod-http-image-filter
+    - nginx-mod-http-perl
+    - nginx-mod-http-xslt-filter
+    - nginx-mod-mail
+    - nginx-mod-stream
+  arch: aarch64
+  artifacts:
+    rpms:
+    - nginx-mod-stream-debuginfo-1:1.22.1-3.module+el9.2.0+17617+2f289c6c.aarch64
+    - nginx-mod-mail-debuginfo-1:1.22.1-3.module+el9.2.0+17617+2f289c6c.aarch64
+    - nginx-mod-http-image-filter-1:1.22.1-3.module+el9.2.0+17617+2f289c6c.aarch64
+    - nginx-mod-http-xslt-filter-1:1.22.1-3.module+el9.2.0+17617+2f289c6c.aarch64
+    - nginx-mod-http-image-filter-debuginfo-1:1.22.1-3.module+el9.2.0+17617+2f289c6c.aarch64
+    - nginx-mod-http-perl-1:1.22.1-3.module+el9.2.0+17617+2f289c6c.aarch64
+    - nginx-mod-devel-1:1.22.1-3.module+el9.2.0+17617+2f289c6c.aarch64
+    - nginx-mod-http-xslt-filter-debuginfo-1:1.22.1-3.module+el9.2.0+17617+2f289c6c.aarch64
+    - nginx-mod-stream-1:1.22.1-3.module+el9.2.0+17617+2f289c6c.aarch64
+    - nginx-core-1:1.22.1-3.module+el9.2.0+17617+2f289c6c.aarch64
+    - nginx-mod-http-perl-debuginfo-1:1.22.1-3.module+el9.2.0+17617+2f289c6c.aarch64
+    - nginx-debugsource-1:1.22.1-3.module+el9.2.0+17617+2f289c6c.aarch64
+    - nginx-1:1.22.1-3.module+el9.2.0+17617+2f289c6c.aarch64
+    - nginx-debuginfo-1:1.22.1-3.module+el9.2.0+17617+2f289c6c.aarch64
+    - nginx-core-debuginfo-1:1.22.1-3.module+el9.2.0+17617+2f289c6c.aarch64
+    - nginx-all-modules-1:1.22.1-3.module+el9.2.0+17617+2f289c6c.noarch
+    - nginx-mod-mail-1:1.22.1-3.module+el9.2.0+17617+2f289c6c.aarch64
+    - nginx-filesystem-1:1.22.1-3.module+el9.2.0+17617+2f289c6c.noarch
+  components:
+    rpms:
+      nginx:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        rationale: Module API.
+        ref: stream-nginx-1.22-rhel-9.2.0
+  context: '9'
+  dependencies:
+  - buildrequires:
+      platform:
+      - el9.2.0
+    requires:
+      platform:
+      - el9
+  description: nginx 1.22 webserver module
+  license:
+    content:
+    - BSD
+    module:
+    - MIT
+  name: nginx
+  profiles:
+    common:
+      rpms:
+      - nginx
+      - nginx-all-modules
+      - nginx-filesystem
+      - nginx-mod-http-image-filter
+      - nginx-mod-http-perl
+      - nginx-mod-http-xslt-filter
+      - nginx-mod-mail
+      - nginx-mod-stream
+  references:
+    documentation: http://nginx.org/en/docs/
+    tracker: https://trac.nginx.org/nginx/
+  stream: '1.22'
+  summary: nginx webserver
+  version: '9020020221218004026'
+document: modulemd
+version: 2
+...
+---
+data:
+  api:
+    rpms:
+    - nodejs
+    - nodejs-devel
+    - npm
+  arch: aarch64
+  artifacts:
+    rpms:
+    - nodejs-1:18.12.1-1.module+el9.1.0.z+17326+318294bb.aarch64
+    - nodejs-debuginfo-1:18.12.1-1.module+el9.1.0.z+17326+318294bb.aarch64
+    - nodejs-debugsource-1:18.12.1-1.module+el9.1.0.z+17326+318294bb.aarch64
+    - nodejs-devel-1:18.12.1-1.module+el9.1.0.z+17326+318294bb.aarch64
+    - nodejs-docs-1:18.12.1-1.module+el9.1.0.z+17326+318294bb.noarch
+    - nodejs-full-i18n-1:18.12.1-1.module+el9.1.0.z+17326+318294bb.aarch64
+    - nodejs-nodemon-0:2.0.20-1.module+el9.1.0.z+17326+318294bb.noarch
+    - nodejs-packaging-0:2021.06-4.module+el9.1.0+15718+e52ec601.noarch
+    - nodejs-packaging-bundler-0:2021.06-4.module+el9.1.0+15718+e52ec601.noarch
+    - npm-1:8.19.2-1.18.12.1.1.module+el9.1.0.z+17326+318294bb.aarch64
+  buildopts:
+    rpms:
+      macros: '%_with_bundled 1
+
+        %_with_python3_fixup 0
+
+        '
+  components:
+    rpms:
+      nodejs:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '100'
+        rationale: Javascript runtime and npm package manager.
+        ref: stream-nodejs-18-rhel-9.1.0
+      nodejs-nodemon:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '200'
+        rationale: Simple monitor script for use during development of a node.js app
+        ref: stream-nodejs-18-rhel-9.1.0
+      nodejs-packaging:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '10'
+        rationale: RPM Macros and Utilities for Node.js Packaging
+        ref: stream-nodejs-18-rhel-9.1.0
+  context: rhel9
+  dependencies:
+  - buildrequires:
+      platform:
+      - el9.1.0.z
+    requires:
+      platform:
+      - el9
+  description: Node.js is a platform built on Chrome's JavaScript runtime for easily
+    building fast, scalable network applications. Node.js uses an event-driven, non-blocking
+    I/O model that makes it lightweight and efficient, perfect for data-intensive
+    real-time applications that run across distributed devices.
+  license:
+    content:
+    - MIT
+    - MIT and ASL 2.0 and ISC and BSD
+    module:
+    - MIT
+  name: nodejs
+  profiles:
+    common:
+      rpms:
+      - nodejs
+      - npm
+    development:
+      rpms:
+      - nodejs
+      - nodejs-devel
+      - npm
+    minimal:
+      rpms:
+      - nodejs
+    s2i:
+      rpms:
+      - nodejs
+      - nodejs-nodemon
+      - npm
+  references:
+    community: http://nodejs.org
+    documentation: http://nodejs.org/en/docs
+    tracker: https://github.com/nodejs/node/issues
+  stream: '18'
+  summary: Javascript runtime
+  version: '9010020221118120946'
+document: modulemd
+version: 2
+...
+---
+data:
+  api:
+    rpms:
+    - php-fpm
+  arch: aarch64
+  artifacts:
+    rpms:
+    - apcu-panel-0:5.1.21-1.module+el9.1.0.z+15477+cb86791d.noarch
+    - php-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-bcmath-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-bcmath-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-cli-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-cli-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-common-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-common-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-dba-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-dba-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-dbg-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-dbg-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-debugsource-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-devel-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-embedded-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-embedded-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-enchant-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-enchant-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-ffi-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-ffi-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-fpm-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-fpm-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-gd-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-gd-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-gmp-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-gmp-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-intl-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-intl-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-ldap-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-ldap-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-mbstring-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-mbstring-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-mysqlnd-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-mysqlnd-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-odbc-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-odbc-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-opcache-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-opcache-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-pdo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-pdo-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-pecl-apcu-0:5.1.21-1.module+el9.1.0.z+15477+cb86791d.aarch64
+    - php-pecl-apcu-debuginfo-0:5.1.21-1.module+el9.1.0.z+15477+cb86791d.aarch64
+    - php-pecl-apcu-debugsource-0:5.1.21-1.module+el9.1.0.z+15477+cb86791d.aarch64
+    - php-pecl-apcu-devel-0:5.1.21-1.module+el9.1.0.z+15477+cb86791d.aarch64
+    - php-pecl-rrd-0:2.0.3-4.module+el9.1.0.z+15477+cb86791d.aarch64
+    - php-pecl-rrd-debuginfo-0:2.0.3-4.module+el9.1.0.z+15477+cb86791d.aarch64
+    - php-pecl-rrd-debugsource-0:2.0.3-4.module+el9.1.0.z+15477+cb86791d.aarch64
+    - php-pecl-xdebug3-0:3.1.4-1.module+el9.1.0.z+15477+cb86791d.aarch64
+    - php-pecl-xdebug3-debuginfo-0:3.1.4-1.module+el9.1.0.z+15477+cb86791d.aarch64
+    - php-pecl-xdebug3-debugsource-0:3.1.4-1.module+el9.1.0.z+15477+cb86791d.aarch64
+    - php-pecl-zip-0:1.20.1-1.module+el9.1.0.z+15477+cb86791d.aarch64
+    - php-pecl-zip-debuginfo-0:1.20.1-1.module+el9.1.0.z+15477+cb86791d.aarch64
+    - php-pecl-zip-debugsource-0:1.20.1-1.module+el9.1.0.z+15477+cb86791d.aarch64
+    - php-pgsql-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-pgsql-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-process-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-process-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-snmp-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-snmp-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-soap-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-soap-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-xml-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+    - php-xml-debuginfo-0:8.1.14-1.module+el9.2.0+17911+b059dfc2.aarch64
+  components:
+    rpms:
+      php:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '1'
+        rationale: Module API.
+        ref: stream-php-8.1-rhel-9.2.0
+      php-pecl-apcu:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '2'
+        rationale: APCu extension
+        ref: stream-php-8.1-rhel-9.2.0
+      php-pecl-rrd:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '2'
+        rationale: RRD extension
+        ref: stream-php-8.1-rhel-9.2.0
+      php-pecl-xdebug3:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '2'
+        rationale: Xdebug extension
+        ref: stream-php-8.1-rhel-9.2.0
+      php-pecl-zip:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '2'
+        rationale: ZIP extension
+        ref: stream-php-8.1-rhel-9.2.0
+  context: '9'
+  dependencies:
+  - buildrequires:
+      platform:
+      - el9.2.0
+    requires:
+      platform:
+      - el9
+  description: php 8.1 module
+  license:
+    content:
+    - BSD
+    - PHP
+    - PHP and BSD
+    - PHP and LGPLv2 and OpenLDAP
+    - PHP and LGPLv2+
+    - PHP and Zend and BSD and MIT and ASL 1.0 and NCSA and Boost
+    - PHP and Zend and BSD and MIT and ASL 1.0 and NCSA and PostgreSQL
+    module:
+    - GPLv2+
+  name: php
+  profiles:
+    common:
+      rpms:
+      - php-cli
+      - php-common
+      - php-fpm
+      - php-mbstring
+      - php-xml
+    devel:
+      rpms:
+      - php-cli
+      - php-common
+      - php-devel
+      - php-fpm
+      - php-mbstring
+      - php-pecl-zip
+      - php-process
+      - php-xml
+    minimal:
+      rpms:
+      - php-cli
+      - php-common
+  references:
+    documentation: http://php.net/
+    tracker: https://bugs.php.net/
+  stream: '8.1'
+  summary: PHP scripting language
+  version: '9020020230120141750'
+document: modulemd
+version: 2
+...
+---
+data:
+  api:
+    rpms:
+    - maven
+    - maven-openjdk11
+    - maven-openjdk17
+    - maven-openjdk8
+  arch: aarch64
+  artifacts:
+    rpms:
+    - maven-wagon-0:3.5.1-2.module+el9.2.0+18047+4ad4bba4.noarch
+    - jsr-305-0:3.0.2-6.module+el9.2.0+18047+4ad4bba4.noarch
+    - maven-shared-utils-javadoc-0:3.3.4-5.module+el9.2.0+18047+4ad4bba4.noarch
+    - plexus-classworlds-javadoc-0:2.6.0-12.module+el9.2.0+18047+4ad4bba4.noarch
+    - apache-commons-io-1:2.11.0-2.module+el9.2.0+18047+4ad4bba4.noarch
+    - guice-bom-0:4.2.3-9.module+el9.2.0+18047+4ad4bba4.noarch
+    - plexus-containers-component-annotations-0:2.1.1-2.module+el9.2.0+18047+4ad4bba4.noarch
+    - jakarta-annotations-javadoc-0:1.3.5-14.module+el9.2.0+18047+4ad4bba4.noarch
+    - plexus-containers-container-default-0:2.1.1-2.module+el9.2.0+18047+4ad4bba4.noarch
+    - apache-commons-cli-javadoc-0:1.5.0-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - guava-0:31.0.1-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - jansi-0:2.4.0-6.module+el9.2.0+18047+4ad4bba4.aarch64
+    - httpcomponents-client-0:4.5.13-5.module+el9.2.0+18047+4ad4bba4.noarch
+    - plexus-cipher-0:2.0-2.module+el9.2.0+18047+4ad4bba4.noarch
+    - cdi-api-javadoc-0:2.0.2-6.module+el9.2.0+18047+4ad4bba4.noarch
+    - maven-wagon-javadoc-0:3.5.1-2.module+el9.2.0+18047+4ad4bba4.noarch
+    - plexus-interpolation-javadoc-0:1.26-12.module+el9.2.0+18047+4ad4bba4.noarch
+    - maven-lib-1:3.8.5-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - maven-resolver-1:1.7.3-5.module+el9.2.0+18047+4ad4bba4.noarch
+    - plexus-sec-dispatcher-0:2.0-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - plexus-containers-0:2.1.1-2.module+el9.2.0+18047+4ad4bba4.noarch
+    - jansi-debugsource-0:2.4.0-6.module+el9.2.0+18047+4ad4bba4.aarch64
+    - maven-shared-utils-0:3.3.4-5.module+el9.2.0+18047+4ad4bba4.noarch
+    - plexus-containers-component-metadata-0:2.1.1-2.module+el9.2.0+18047+4ad4bba4.noarch
+    - maven-openjdk8-1:3.8.5-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - cdi-api-0:2.0.2-6.module+el9.2.0+18047+4ad4bba4.noarch
+    - guice-multibindings-0:4.2.3-9.module+el9.2.0+18047+4ad4bba4.noarch
+    - apache-commons-io-javadoc-1:2.11.0-2.module+el9.2.0+18047+4ad4bba4.noarch
+    - guice-throwingproviders-0:4.2.3-9.module+el9.2.0+18047+4ad4bba4.noarch
+    - slf4j-jdk14-0:1.7.32-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - guice-servlet-0:4.2.3-9.module+el9.2.0+18047+4ad4bba4.noarch
+    - guava-javadoc-0:31.0.1-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - maven-javadoc-1:3.8.5-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - guice-parent-0:4.2.3-9.module+el9.2.0+18047+4ad4bba4.noarch
+    - jsr-305-javadoc-0:3.0.2-6.module+el9.2.0+18047+4ad4bba4.noarch
+    - apache-commons-codec-0:1.15-7.module+el9.2.0+18047+4ad4bba4.noarch
+    - slf4j-manual-0:1.7.32-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - guice-grapher-0:4.2.3-9.module+el9.2.0+18047+4ad4bba4.noarch
+    - jul-to-slf4j-0:1.7.32-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - guice-jmx-0:4.2.3-9.module+el9.2.0+18047+4ad4bba4.noarch
+    - apache-commons-codec-javadoc-0:1.15-7.module+el9.2.0+18047+4ad4bba4.noarch
+    - maven-openjdk17-1:3.8.5-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - atinject-0:1.0.5-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - httpcomponents-client-javadoc-0:4.5.13-5.module+el9.2.0+18047+4ad4bba4.noarch
+    - plexus-cipher-javadoc-0:2.0-2.module+el9.2.0+18047+4ad4bba4.noarch
+    - apache-commons-lang3-javadoc-0:3.12.0-7.module+el9.2.0+18047+4ad4bba4.noarch
+    - sisu-javadoc-1:0.3.5-2.module+el9.2.0+18047+4ad4bba4.noarch
+    - slf4j-jcl-0:1.7.32-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - jansi-javadoc-0:2.4.0-6.module+el9.2.0+18047+4ad4bba4.noarch
+    - log4j-over-slf4j-0:1.7.32-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - google-guice-0:4.2.3-9.module+el9.2.0+18047+4ad4bba4.noarch
+    - plexus-classworlds-0:2.6.0-12.module+el9.2.0+18047+4ad4bba4.noarch
+    - plexus-utils-javadoc-0:3.3.0-10.module+el9.2.0+18047+4ad4bba4.noarch
+    - slf4j-migrator-0:1.7.32-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - guice-jndi-0:4.2.3-9.module+el9.2.0+18047+4ad4bba4.noarch
+    - sisu-1:0.3.5-2.module+el9.2.0+18047+4ad4bba4.noarch
+    - jcl-over-slf4j-0:1.7.32-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - guice-assistedinject-0:4.2.3-9.module+el9.2.0+18047+4ad4bba4.noarch
+    - guava-testlib-0:31.0.1-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - jakarta-annotations-0:1.3.5-14.module+el9.2.0+18047+4ad4bba4.noarch
+    - plexus-containers-javadoc-0:2.1.1-2.module+el9.2.0+18047+4ad4bba4.noarch
+    - slf4j-sources-0:1.7.32-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - plexus-interpolation-0:1.26-12.module+el9.2.0+18047+4ad4bba4.noarch
+    - apache-commons-cli-0:1.5.0-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - slf4j-0:1.7.32-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - httpcomponents-core-javadoc-0:4.4.13-7.module+el9.2.0+18047+4ad4bba4.noarch
+    - maven-1:3.8.5-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - maven-resolver-javadoc-1:1.7.3-5.module+el9.2.0+18047+4ad4bba4.noarch
+    - slf4j-javadoc-0:1.7.32-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - plexus-sec-dispatcher-javadoc-0:2.0-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - plexus-utils-0:3.3.0-10.module+el9.2.0+18047+4ad4bba4.noarch
+    - jansi-debuginfo-0:2.4.0-6.module+el9.2.0+18047+4ad4bba4.aarch64
+    - google-guice-javadoc-0:4.2.3-9.module+el9.2.0+18047+4ad4bba4.noarch
+    - guice-extensions-0:4.2.3-9.module+el9.2.0+18047+4ad4bba4.noarch
+    - apache-commons-lang3-0:3.12.0-7.module+el9.2.0+18047+4ad4bba4.noarch
+    - atinject-javadoc-0:1.0.5-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - maven-openjdk11-1:3.8.5-4.module+el9.2.0+18047+4ad4bba4.noarch
+    - httpcomponents-core-0:4.4.13-7.module+el9.2.0+18047+4ad4bba4.noarch
+  buildopts:
+    rpms:
+      macros: '%_without_maven_resolver_extra_modules 1
+
+        %java_arches aarch64 ppc64le s390x x86_64
+
+        '
+  components:
+    rpms:
+      apache-commons-cli:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '10'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      apache-commons-codec:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '10'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      apache-commons-io:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '10'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      apache-commons-lang3:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '10'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      atinject:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '10'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      cdi-api:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '20'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      google-guice:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '30'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      guava:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '20'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      httpcomponents-client:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '20'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      httpcomponents-core:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '10'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      jakarta-annotations:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '10'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      jansi:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '10'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      jsr-305:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '10'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      maven:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '50'
+        rationale: Module API.
+        ref: stream-maven-3.8-rhel-9.2.0
+      maven-resolver:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '40'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      maven-shared-utils:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '20'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      maven-wagon:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '30'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      plexus-cipher:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '10'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      plexus-classworlds:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '10'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      plexus-containers:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '10'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      plexus-interpolation:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '10'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      plexus-sec-dispatcher:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '20'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      plexus-utils:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '10'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      sisu:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '30'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+      slf4j:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '10'
+        rationale: Runtime dependency of maven.
+        ref: stream-maven-3.8-rhel-9.1.0
+  context: 470dcefd
+  dependencies:
+  - buildrequires:
+      javapackages-tools:
+      - '202201'
+      platform:
+      - el9.2.0
+    requires:
+      platform:
+      - el9
+  description: Maven is a software project management and comprehension tool. Based
+    on the concept of a project object model (POM), Maven can manage a project's build,
+    reporting and documentation from a central piece of information.
+  filter:
+    rpms:
+    - apache-commons-cli-javadoc
+    - apache-commons-codec-javadoc
+    - apache-commons-io-javadoc
+    - apache-commons-lang3-javadoc
+    - atinject-javadoc
+    - cdi-api-javadoc
+    - google-guice-javadoc
+    - guava-javadoc
+    - guava-testlib
+    - guice-assistedinject
+    - guice-bom
+    - guice-extensions
+    - guice-grapher
+    - guice-jmx
+    - guice-jndi
+    - guice-multibindings
+    - guice-parent
+    - guice-servlet
+    - guice-throwingproviders
+    - httpcomponents-client-javadoc
+    - httpcomponents-core-javadoc
+    - jakarta-annotations-javadoc
+    - jansi-javadoc
+    - jsr-305-javadoc
+    - jul-to-slf4j
+    - log4j-over-slf4j
+    - maven-javadoc
+    - maven-resolver-javadoc
+    - maven-shared-utils-javadoc
+    - maven-wagon-javadoc
+    - plexus-cipher-javadoc
+    - plexus-classworlds-javadoc
+    - plexus-containers
+    - plexus-containers-component-metadata
+    - plexus-containers-container-default
+    - plexus-containers-javadoc
+    - plexus-interpolation-javadoc
+    - plexus-sec-dispatcher-javadoc
+    - plexus-utils-javadoc
+    - sisu-javadoc
+    - slf4j-javadoc
+    - slf4j-jcl
+    - slf4j-jdk14
+    - slf4j-manual
+    - slf4j-migrator
+    - slf4j-sources
+  license:
+    content:
+    - ASL 1.1 and ASL 2.0 and xpp and BSD and Public Domain
+    - ASL 2.0
+    - ASL 2.0 and ASL 1.1 and MIT
+    - ASL 2.0 and CC0
+    - ASL 2.0 and MIT
+    - ASL 2.0 and MIT and xpp
+    - ASL 2.0 and Plexus
+    - BSD and CC-BY
+    - EPL-1.0 and BSD
+    - EPL-2.0 or GPLv2 with exceptions
+    - MIT and ASL 2.0
+    module:
+    - MIT
+  name: maven
+  profiles:
+    common:
+      rpms:
+      - maven-openjdk11
+  stream: '3.8'
+  summary: Java project management and project comprehension tool
+  version: '9020020230202162913'
 document: modulemd
 version: 2
 ...
