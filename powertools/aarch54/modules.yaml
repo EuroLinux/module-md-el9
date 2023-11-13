@@ -1,0 +1,73 @@
+---
+document: modulemd
+version: 2
+data:
+  name: swig
+  stream: "4.1"
+  version: 9020020221219141850
+  context: rhel9
+  static_context: true
+  arch: aarch64
+  summary: Connects C/C++/Objective C to some high-level programming languages
+  description: >
+    Simplified Wrapper and Interface Generator (SWIG) is a software development tool
+    for connecting C, C++ and Objective C programs with a variety of high-level programming
+    languages. SWIG is used with different types of target languages including common
+    scripting languages such as Javascript, Perl, PHP, Python, Tcl and Ruby. The list
+    of supported languages also includes non-scripting languages such as C#, D, Go
+    language, Java including Android, Lua, OCaml, Octave, Scilab and R. Also several
+    interpreted and compiled Scheme implementations (Guile, MzScheme/Racket) are supported.
+    SWIG is most commonly used to create high-level interpreted or compiled programming
+    environments, user interfaces, and as a tool for testing and prototyping C/C++
+    software
+  license:
+    module:
+    - MIT
+    content:
+    - BSD
+    - GPLv3+ and BSD
+  xmd: {}
+  dependencies:
+  - buildrequires:
+      platform: [el9.2.0]
+    requires:
+      platform: [el9]
+  references:
+    community: https://www.swig.org/
+    documentation: http://www.swig.org/doc.html
+    tracker: https://bugzilla.redhat.com/buglist.cgi?classification=Red%20Hat&component=swig-4.1-module&product=Red%20Hat%20Enterprise%20Linux%208
+  profiles:
+    common:
+      description: Simplified Wrapper and Interface Generator (SWIG)
+      rpms:
+      - swig
+    complete:
+      description: SWIG, documentation and commands for easier debugging
+      rpms:
+      - swig
+      - swig-doc
+      - swig-gdb
+  api:
+    rpms:
+    - swig
+    - swig-doc
+    - swig-gdb
+  buildopts:
+    rpms:
+      macros: >
+        %_without_build_ccache_swig 1
+  components:
+    rpms:
+      swig:
+        rationale: SWIG package
+        ref: stream-swig-4.1-rhel-9.2.0
+        arches: [aarch64, i686, ppc64le, s390x, x86_64]
+  artifacts:
+    rpms:
+    - swig-0:4.1.1-1.module+el9.2.0+17621+ec36a39e.aarch64
+    - swig-0:4.1.1-1.module+el9.2.0+17621+ec36a39e.src
+    - swig-debuginfo-0:4.1.1-1.module+el9.2.0+17621+ec36a39e.aarch64
+    - swig-debugsource-0:4.1.1-1.module+el9.2.0+17621+ec36a39e.aarch64
+    - swig-doc-0:4.1.1-1.module+el9.2.0+17621+ec36a39e.noarch
+    - swig-gdb-0:4.1.1-1.module+el9.2.0+17621+ec36a39e.aarch64
+...

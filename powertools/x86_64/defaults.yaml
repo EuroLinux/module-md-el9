@@ -1,0 +1,8 @@
+---
+document: modulemd-defaults
+version: 1
+data:
+  module: swig
+  profiles:
+    4.1: [common]
+...
