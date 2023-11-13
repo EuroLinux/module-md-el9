@@ -13,6 +13,8 @@ data:
   module: nodejs
   profiles:
     18: [common]
+    20: [common]
+
 ...
 ---
 document: modulemd-defaults
@@ -38,3 +40,20 @@ data:
   profiles:
     1.22: [common]
 ...
+---
+document: modulemd-defaults
+version: 1
+data:
+  module: redis
+  profiles:
+    7: [common]
+...
+---
+document: modulemd-defaults
+version: 1
+data:
+  module: postgresql
+  profiles:
+    15: [server]
+...
+
