@@ -4316,3 +4316,57 @@ data:
 document: modulemd
 version: 2
 ...
+---
+data:
+  api:
+    rpms:
+    - redis
+  arch: x86_64
+  artifacts:
+    rpms:
+    - redis-0:7.0.12-2.module+el9.3.0+21263+4e58afe8.x86_64
+    - redis-debuginfo-0:7.0.12-2.module+el9.3.0+21263+4e58afe8.x86_64
+    - redis-debugsource-0:7.0.12-2.module+el9.3.0+21263+4e58afe8.x86_64
+    - redis-devel-0:7.0.12-2.module+el9.3.0+21263+4e58afe8.x86_64
+    - redis-doc-0:7.0.12-2.module+el9.3.0+21263+4e58afe8.noarch
+  components:
+    rpms:
+      redis:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '1'
+        rationale: Module API.
+        ref: stream-redis-7-rhel-9.3.0
+  context: '9'
+  dependencies:
+  - buildrequires:
+      platform:
+      - el9.3.0.z
+    requires:
+      platform:
+      - el9
+  description: redis 7 module
+  license:
+    content:
+    - BSD-3-Clause AND BSD-2-Clause AND MIT
+    - CC-BY-SA-4.0
+    module:
+    - GPLv2+
+  name: redis
+  profiles:
+    common:
+      rpms:
+      - redis
+  references:
+    documentation: https://redis.io/documentation
+    tracker: https://github.com/redis/redis/issues
+  stream: '7'
+  summary: Redis persistent key-value database
+  version: '9030020240206103833'
+document: modulemd
+version: 2
+...
