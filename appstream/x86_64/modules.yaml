@@ -4744,3 +4744,82 @@ data:
 document: modulemd
 version: 2
 ...
+---
+data:
+  api:
+    rpms:
+    - nginx
+    - nginx-all-modules
+    - nginx-filesystem
+    - nginx-mod-http-image-filter
+    - nginx-mod-http-perl
+    - nginx-mod-http-xslt-filter
+    - nginx-mod-mail
+    - nginx-mod-stream
+  arch: x86_64
+  artifacts:
+    rpms:
+    - nginx-1:1.24.0-1.module+el9.4.0+21148+519cb8d8.x86_64
+    - nginx-mod-http-image-filter-debuginfo-1:1.24.0-1.module+el9.4.0+21148+519cb8d8.x86_64
+    - nginx-mod-http-perl-debuginfo-1:1.24.0-1.module+el9.4.0+21148+519cb8d8.x86_64
+    - nginx-debugsource-1:1.24.0-1.module+el9.4.0+21148+519cb8d8.x86_64
+    - nginx-filesystem-1:1.24.0-1.module+el9.4.0+21148+519cb8d8.noarch
+    - nginx-mod-http-image-filter-1:1.24.0-1.module+el9.4.0+21148+519cb8d8.x86_64
+    - nginx-mod-http-xslt-filter-debuginfo-1:1.24.0-1.module+el9.4.0+21148+519cb8d8.x86_64
+    - nginx-mod-stream-1:1.24.0-1.module+el9.4.0+21148+519cb8d8.x86_64
+    - nginx-debuginfo-1:1.24.0-1.module+el9.4.0+21148+519cb8d8.x86_64
+    - nginx-mod-devel-1:1.24.0-1.module+el9.4.0+21148+519cb8d8.x86_64
+    - nginx-all-modules-1:1.24.0-1.module+el9.4.0+21148+519cb8d8.noarch
+    - nginx-mod-stream-debuginfo-1:1.24.0-1.module+el9.4.0+21148+519cb8d8.x86_64
+    - nginx-mod-mail-debuginfo-1:1.24.0-1.module+el9.4.0+21148+519cb8d8.x86_64
+    - nginx-core-debuginfo-1:1.24.0-1.module+el9.4.0+21148+519cb8d8.x86_64
+    - nginx-mod-mail-1:1.24.0-1.module+el9.4.0+21148+519cb8d8.x86_64
+    - nginx-mod-http-xslt-filter-1:1.24.0-1.module+el9.4.0+21148+519cb8d8.x86_64
+    - nginx-core-1:1.24.0-1.module+el9.4.0+21148+519cb8d8.x86_64
+    - nginx-mod-http-perl-1:1.24.0-1.module+el9.4.0+21148+519cb8d8.x86_64
+  components:
+    rpms:
+      nginx:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        rationale: Module API.
+        ref: stream-nginx-1.24-rhel-9.4.0
+  context: '9'
+  dependencies:
+  - buildrequires:
+      platform:
+      - el9.4.0
+    requires:
+      platform:
+      - el9
+  description: nginx 1.24 webserver module
+  license:
+    content:
+    - BSD
+    module:
+    - MIT
+  name: nginx
+  profiles:
+    common:
+      rpms:
+      - nginx
+      - nginx-all-modules
+      - nginx-filesystem
+      - nginx-mod-http-image-filter
+      - nginx-mod-http-perl
+      - nginx-mod-http-xslt-filter
+      - nginx-mod-mail
+      - nginx-mod-stream
+  references:
+    documentation: http://nginx.org/en/docs/
+    tracker: https://trac.nginx.org/nginx/
+  stream: '1.24'
+  summary: nginx webserver
+  version: '9040020240119091223'
+document: modulemd
+version: 2
+...
