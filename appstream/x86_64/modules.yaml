@@ -5668,3 +5668,166 @@ data:
 document: modulemd
 version: 2
 ...
+---
+data:
+  api:
+    rpms:
+    - ruby
+    - ruby-bundled-gems
+    - ruby-default-gems
+    - ruby-devel
+    - ruby-libs
+    - rubygem-bigdecimal
+    - rubygem-bundler
+    - rubygem-io-console
+    - rubygem-irb
+    - rubygem-json
+    - rubygem-minitest
+    - rubygem-mysql2
+    - rubygem-pg
+    - rubygem-power_assert
+    - rubygem-psych
+    - rubygem-racc
+    - rubygem-rake
+    - rubygem-rbs
+    - rubygem-rdoc
+    - rubygem-rexml
+    - rubygem-rss
+    - rubygem-test-unit
+    - rubygem-typeprof
+    - rubygems
+    - rubygems-devel
+  arch: x86_64
+  artifacts:
+    rpms:
+    - rubygem-json-0:2.7.1-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-rdoc-0:6.6.2-1.module+el9.4.0+21222+faeeed2f.noarch
+    - ruby-bundled-gems-debuginfo-0:3.3.0-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-mysql2-debuginfo-0:0.5.5-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-json-debuginfo-0:2.7.1-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-rss-0:0.3.0-1.module+el9.4.0+21222+faeeed2f.noarch
+    - ruby-devel-0:3.3.0-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-test-unit-0:3.6.1-1.module+el9.4.0+21222+faeeed2f.noarch
+    - rubygem-pg-doc-0:1.5.4-1.module+el9.4.0+21222+faeeed2f.noarch
+    - ruby-default-gems-0:3.3.0-1.module+el9.4.0+21222+faeeed2f.noarch
+    - rpm-local-generator-support-0:1-1.module+el9.4.0+21222+faeeed2f.noarch
+    - rubygem-irb-0:1.11.0-1.module+el9.4.0+21222+faeeed2f.noarch
+    - ruby-debuginfo-0:3.3.0-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-rake-0:13.1.0-1.module+el9.4.0+21222+faeeed2f.noarch
+    - rubygems-devel-0:3.5.3-1.module+el9.4.0+21222+faeeed2f.noarch
+    - rubygem-psych-debuginfo-0:5.1.2-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-bigdecimal-debuginfo-0:3.1.5-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - ruby-bundled-gems-0:3.3.0-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-rbs-debuginfo-0:3.4.0-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-typeprof-0:0.21.9-1.module+el9.4.0+21222+faeeed2f.noarch
+    - rubygem-pg-debuginfo-0:1.5.4-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-io-console-debuginfo-0:0.7.1-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-minitest-0:5.20.0-1.module+el9.4.0+21222+faeeed2f.noarch
+    - rubygem-power_assert-0:2.0.3-1.module+el9.4.0+21222+faeeed2f.noarch
+    - rubygem-mysql2-debugsource-0:0.5.5-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-racc-debuginfo-0:1.7.3-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-mysql2-doc-0:0.5.5-1.module+el9.4.0+21222+faeeed2f.noarch
+    - rubygem-psych-0:5.1.2-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-bundler-0:2.5.3-1.module+el9.4.0+21222+faeeed2f.noarch
+    - rubygem-rbs-0:3.4.0-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygems-0:3.5.3-1.module+el9.4.0+21222+faeeed2f.noarch
+    - ruby-doc-0:3.3.0-1.module+el9.4.0+21222+faeeed2f.noarch
+    - rubygem-bigdecimal-0:3.1.5-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-racc-0:1.7.3-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - ruby-0:3.3.0-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-rexml-0:3.2.6-1.module+el9.4.0+21222+faeeed2f.noarch
+    - ruby-libs-0:3.3.0-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-pg-debugsource-0:1.5.4-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - ruby-libs-debuginfo-0:3.3.0-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - ruby-debugsource-0:3.3.0-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-io-console-0:0.7.1-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-mysql2-0:0.5.5-1.module+el9.4.0+21222+faeeed2f.x86_64
+    - rubygem-pg-0:1.5.4-1.module+el9.4.0+21222+faeeed2f.x86_64
+  components:
+    rpms:
+      rpm-local-generator-support:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '100'
+        rationale: RPM local_generator support
+        ref: c9s
+      ruby:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '101'
+        multilib:
+        - x86_64
+        rationale: An interpreter of object-oriented scripting language
+        ref: stream-ruby-3.3-rhel-9.4.0
+      rubygem-mysql2:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '102'
+        rationale: A simple, fast Mysql library for Ruby, binding to libmysql
+        ref: stream-ruby-3.3-rhel-9.4.0
+      rubygem-pg:
+        arches:
+        - aarch64
+        - i686
+        - ppc64le
+        - s390x
+        - x86_64
+        buildorder: '102'
+        rationale: A Ruby interface to the PostgreSQL RDBMS
+        ref: stream-ruby-3.3-rhel-9.4.0
+  context: '9'
+  dependencies:
+  - buildrequires:
+      platform:
+      - el9.4.0
+    requires:
+      platform:
+      - el9
+  description: Ruby is the interpreted scripting language for quick and easy object-oriented
+    programming.  It has many features to process text files and to do system management
+    tasks (as in Perl).  It is simple, straight-forward, and extensible.
+  filter:
+    rpms:
+    - rpm-local-generator-support
+  license:
+    content:
+    - (BSD-2-Clause OR Ruby) AND PostgreSQL
+    - (Ruby OR BSD-2-Clause) AND (Ruby OR BSD-2-Clause OR Python-2.0.1)
+    - (Ruby OR BSD-2-Clause) AND BSD-3-Clause AND ISC AND Public Domain AND MIT and
+      CC0 AND zlib AND Unicode-DFS-2015
+    - (Ruby OR BSD-2-Clause) AND Unicode-DFS-2015
+    - (Ruby OR MIT) AND BSD-2-Clause AND (BSD-2-Clause OR Ruby) AND MIT
+    - BSD-2-Clause
+    - GPL-2.0-only AND Ruby AND BSD-3-Clause AND CC-BY-2.5 AND OFL-1.1-RFN
+    - MIT
+    - MIT AND (Ruby OR BSD-2-Clause)
+    - Ruby OR BSD-2-Clause
+    module:
+    - MIT
+  name: ruby
+  profiles:
+    common:
+      rpms:
+      - ruby
+  references:
+    community: http://ruby-lang.org/
+    documentation: https://www.ruby-lang.org/en/documentation/
+    tracker: https://bugs.ruby-lang.org/
+  stream: '3.3'
+  summary: An interpreter of object-oriented scripting language
+  version: '9040020240126130018'
+document: modulemd
+version: 2
+...
