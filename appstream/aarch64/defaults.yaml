@@ -2,9 +2,28 @@
 document: modulemd-defaults
 version: 1
 data:
-  module: maven
+  module: php
   profiles:
-    3.8: [common]
+    8.1: [common]
+    8.2: [common]
+...
+---
+document: modulemd-defaults
+version: 1
+data:
+  module: nginx
+  profiles:
+    1.22: [common]
+    1.24: [common]
+...
+---
+document: modulemd-defaults
+version: 1
+data:
+  module: ruby
+  profiles:
+    3.1: [common]
+    3.3: [common]
 ...
 ---
 document: modulemd-defaults
@@ -14,31 +33,6 @@ data:
   profiles:
     18: [common]
     20: [common]
-
-...
----
-document: modulemd-defaults
-version: 1
-data:
-  module: ruby
-  profiles:
-    3.1: [common]
-...
----
-document: modulemd-defaults
-version: 1
-data:
-  module: php
-  profiles:
-    8.1: [common]
-...
----
-document: modulemd-defaults
-version: 1
-data:
-  module: nginx
-  profiles:
-    1.22: [common]
 ...
 ---
 document: modulemd-defaults
@@ -52,8 +46,24 @@ data:
 document: modulemd-defaults
 version: 1
 data:
+  module: mariadb
+  profiles:
+    10.11: [server]
+...
+---
+document: modulemd-defaults
+version: 1
+data:
   module: postgresql
   profiles:
     15: [server]
+    16: [server]
 ...
-
+---
+document: modulemd-defaults
+version: 1
+data:
+  module: maven
+  profiles:
+    3.8: [common]
+...
